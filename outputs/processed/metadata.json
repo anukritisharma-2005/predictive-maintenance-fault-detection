@@ -1,0 +1,39 @@
+{
+    "feature_columns": [
+        "Air temperature [K]",
+        "Process temperature [K]",
+        "Rotational speed [rpm]",
+        "Torque [Nm]",
+        "Tool wear [min]",
+        "TWF",
+        "HDF",
+        "PWF",
+        "OSF",
+        "RNF",
+        "voltage",
+        "current",
+        "temperature",
+        "voltage_roll_mean",
+        "voltage_roll_std",
+        "current_roll_mean",
+        "current_roll_std",
+        "temperature_roll_mean",
+        "temperature_roll_std",
+        "voltage_lag_1",
+        "voltage_lag_3",
+        "voltage_lag_5",
+        "current_lag_1",
+        "current_lag_3",
+        "current_lag_5",
+        "temperature_lag_1",
+        "temperature_lag_3",
+        "temperature_lag_5"
+    ],
+    "target": "Machine failure",
+    "window": 10,
+    "lags": [
+        1,
+        3,
+        5
+    ]
+}
