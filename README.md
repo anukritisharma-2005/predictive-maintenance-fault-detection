@@ -1,5 +1,8 @@
 # Predictive Maintenance & Fault Detection for Electronic Circuits
+## Live Dashboard
 
+Streamlit App:
+https://predictive-maintenance-fault-detection-klyhpexeptdzlxfunpdgsa.streamlit.app
 ## Overview
 
 This project implements an end-to-end predictive maintenance pipeline for electronic systems using machine learning and anomaly detection techniques.
